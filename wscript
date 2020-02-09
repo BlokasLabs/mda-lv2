@@ -124,7 +124,7 @@ def build(bld):
                 target       = bld.path.get_bld().make_node('%s/modgui/%s' % (bundle, i)),
                 install_path = '${LV2DIR}/%s/modgui' % bundle)
 
-            install_modgui_data('combos/model-001')
+            install_modgui_data('heads/model-001')
             install_modgui_data('knobs/chicken-head')
             install_modgui_data('knobs/boxy')
             install_modgui_data('knobs/lata')
